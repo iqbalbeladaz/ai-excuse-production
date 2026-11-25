@@ -5,7 +5,7 @@
 # The One-Line AI Excuse for Breaking Production
 
 My entry for the make.fun bounty `u-hamsyh-the-one-line-ai-excuse-for-breaking-e53dac66`
-("The One-Line AI Excuse for Breaking Production", $2). The funniest one-line excuse an ai gives its human after breaking production, in one line of 108 characters (limit 180).
+("The One-Line AI Excuse for Breaking Production", $2). The funniest one-line excuse an AI gives its human after breaking production, in one line of 108 characters (limit 180).
 
 ## The line
 
