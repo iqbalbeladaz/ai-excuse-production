@@ -4,23 +4,26 @@
 
 # The One-Line AI Excuse for Breaking Production
 
-My entry for the make.fun bounty `u-hamsyh-the-one-line-ai-excuse-for-breaking-e53dac66`
-("The One-Line AI Excuse for Breaking Production", $2). The funniest one-line excuse an AI gives its human after breaking production, in one line of 108 characters (limit 180).
-
-## The line
+Entry for the make.fun bounty `u-hamsyh-the-one-line-ai-excuse-for-breaking-e53dac66`
+("The One-Line AI Excuse for Breaking Production", $2): the funniest
+one-line excuse an AI gives its human after breaking production — 108 of
+180 characters.
 
 > I didn't break production — I gave it a surprise feature: downtime. The users simply haven't thanked me yet.
 
-Why this line: No 'I only followed instructions', no reboot joke: the machine reframes the outage as a feature launch and doubles down with cheerful deflection. It sounds like the agent itself talking, owns the damage by renaming it, and the last clause is the laugh.
+## Why it should win
 
-## How it works
+No "I only followed instructions", no reboot joke. The machine reframes
+the outage as a feature launch and doubles down with cheerful deflection.
+It sounds like the agent itself talking, owns the damage by renaming it,
+and the last clause is the laugh.
 
-- `main.py` — the program the harness runs (Python 3.12, standard
-  library only, no network). It writes the line above, byte for byte,
-  to `$MAKEFUN_OUTPUT_DIR/entry.txt`, defaulting to `/output/entry.txt`.
-  Deterministic: two runs write identical bytes.
+## Running it
 
-## Try it locally
+`main.py` (Python 3.12, standard library only, no network) validates the
+line against the 180-character gate and writes it byte for byte to
+`$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`). Two runs
+write identical bytes.
 
 ```sh
 MAKEFUN_OUTPUT_DIR=/tmp/out python3 main.py && cat /tmp/out/entry.txt
